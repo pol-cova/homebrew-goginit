@@ -5,11 +5,11 @@
 class Goginit < Formula
   desc ""
   homepage "https://github.com/pol-cova/goginit"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
-    url "https://github.com/pol-cova/GoGinit/releases/download/v0.1.1/GoGinit_0.1.1_darwin_all.tar.gz"
-    sha256 "fed83ab3c18f9b83b0014c5e2c64e06b8c45d4743e84db55dd73f3c8118669c9"
+    url "https://github.com/pol-cova/GoGinit/releases/download/v0.1.2/GoGinit_0.1.2_darwin_all.tar.gz"
+    sha256 "df01a3a6a7f2f4da8370b454ca37419f6466707c1bb7fb7b276e9194206386c0"
 
     def install
       bin.install "GoGinit"
@@ -19,8 +19,8 @@ class Goginit < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/pol-cova/GoGinit/releases/download/v0.1.1/GoGinit_0.1.1_linux_amd64.tar.gz"
-        sha256 "226af6a96aeb07518b8f572c38194f078a4c45c6770e8ae7ea03e21ab8ebb1ee"
+        url "https://github.com/pol-cova/GoGinit/releases/download/v0.1.2/GoGinit_0.1.2_linux_amd64.tar.gz"
+        sha256 "ea856f77660af6a23f2d61f221db6ffe84bcfc54d34bf26c9983c3032969ad4e"
 
         def install
           bin.install "goginit"
@@ -29,8 +29,8 @@ class Goginit < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/pol-cova/GoGinit/releases/download/v0.1.1/GoGinit_0.1.1_linux_arm64.tar.gz"
-        sha256 "bb3f18d53dfd53c37c0af3df1e126d5636c47f996de9cd3f7a7694819cd35e08"
+        url "https://github.com/pol-cova/GoGinit/releases/download/v0.1.2/GoGinit_0.1.2_linux_arm64.tar.gz"
+        sha256 "7ad86e5cc3467322a2fd5c0205e1734967675224a068be66f2265cc62ed39fe4"
 
         def install
           bin.install "goginit"
